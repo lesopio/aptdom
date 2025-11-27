@@ -1,0 +1,31 @@
+# AI PPT to Docx/Markdown Converter - 依赖库
+
+# PPT处理
+python-pptx>=0.6.21
+
+# AI API
+requests>=2.31.0
+
+# OCR处理
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# 文档生成
+python-docx>=0.8.11
+markdown>=3.4.0
+
+# 工具库
+python-dotenv>=1.0.0
+pyyaml>=6.0.0
+psutil>=5.9.0
+
+# 可选依赖（用于高级功能）
+# comtypes>=1.2.0  # Windows PPT处理备用方案
+# pdf2image>=1.16.3  # PDF转图像（如果需要）
+
+# 开发依赖
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
